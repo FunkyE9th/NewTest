@@ -110,3 +110,13 @@ To watch the video tutorial please go to Link TBD
 7. flash the build
 
    west flash
+
+
+
+```
+​```
+function test() {
+  console.log("notice the blank line before this function?");
+}
+​```
+```
