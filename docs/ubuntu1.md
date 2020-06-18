@@ -11,7 +11,7 @@ Link to video coming soon.
 
    
 
-2. step2
+2. Install Dependencies
 
    ```
    sudo apt install --no-install-recommends git cmake ninja-build gperf \
@@ -22,7 +22,25 @@ Link to video coming soon.
 
    
 
-3. step 3
+3. Get Zephyr and Install Python Dependencies
+
+   - Install west, and make sure ~/.local/bin is on your PATH environment variable
+
+     ```
+     pip3 install --user -U west
+     echo 'export PATH=~/.local/bin:"$PATH"' >> ~/.bashrc
+     source ~/.bashrc
+     ```
+
+     
+
+   - Get Zephyr Source Code
+
+   - Export Zephyr CMake package
+
+   - Zephyr’s scripts/requirements.txt file declares additional Python dependencies. Install them with pip3
+
+     
 
 4. step 4
 
