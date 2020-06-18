@@ -89,7 +89,25 @@ Link to video coming soon.
 
      
 
-5. step 5
+5. Install nRF Command Line Tools Pkg
+
+   - Download Tools from Nordic Semiconductor Website
+
+     https://www.nordicsemi.com/Software-and-Tools/Development-Tools/nRF-Command-Line-Tools/Download#in
+
+   - Extract files into a directory of your choice
+
+     
+
+   - cd into the directory and install
+
+     ```
+     sudo apt-get install libncurses5
+     sudo dpkg -i --force-overwrite JLink_Linux_V680b_x86_64.deb
+     sudo dpkg -i --force-overwrite nRF-Command-Line-Tools_10_9_0_Linux-amd64.deb
+     ```
+
+     
 
 6. step 6
 
