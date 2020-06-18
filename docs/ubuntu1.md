@@ -60,7 +60,34 @@ Link to video coming soon.
 
      
 
-4. step 4
+4. Install Toolchain
+
+   - Download the latest SDK installer
+
+     ```
+     cd ~
+     wget https://github.com/zephyrproject-rtos/sdk-ng/releases/download/v0.11.3/zephyr-sdk-0.11.3-setup.run
+     ```
+
+     
+
+   - Run the installer, installing the SDK in ~/zephyr-sdk-0.11.3
+
+     ```
+     chmod +x zephyr-sdk-0.11.3-setup.run
+     ./zephyr-sdk-0.11.3-setup.run -- -d ~/zephyr-sdk-0.11.3
+     ```
+
+     
+
+   - Install udev rules
+
+     ```
+     sudo cp ~/zephyr-sdk-0.11.3/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d
+     sudo udevadm control --reload
+     ```
+
+     
 
 5. step 5
 
