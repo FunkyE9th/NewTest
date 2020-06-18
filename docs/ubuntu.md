@@ -86,9 +86,7 @@ To watch the video tutorial please go to Link TBD
    - [ ] Go to the directory and install
 
      sudo apt-get install libncurses5
-     
      sudo dpkg -i --force-overwrite JLink_Linux_V680b_x86_64.deb
-     
      sudo dpkg -i --force-overwrite nRF-Command-Line-Tools_10_9_0_Linux-amd64.deb
      
      
