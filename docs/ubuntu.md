@@ -96,12 +96,11 @@ To watch the video tutorial please go to Link TBD
    cd ~/zephyrproject/zephyr
    west build -p auto -b <your-board-name> samples/basic/blinky
 
-   To build nrf52832: west build -p auto -b nrf52_pca10040 samples/basic/blinky 
-
-   To build nrf52840: west build -p auto -b nrf52840_pca10056 samples/basic/blinky 
-
+   To build BL652: west build -p auto -b nrf52_pca10040 samples/basic/blinky
+To build BL654: west build -p auto -b nrf52840_pca10056 samples/basic/blinky 
    
 
+   
 7. flash the build
 
    west flash
