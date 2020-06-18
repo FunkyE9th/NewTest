@@ -109,10 +109,40 @@ Link to video coming soon.
 
      
 
-6. step 6
+6. Build Blinky
 
-7. step 7
+   - Build for BL652
 
-8. step 8
+     ```
+     cd ~/zephyrproject/zephyr
+     west build -p auto -b nrf52_pca10040 samples/basic/blinky
+     ```
 
-9. 
+     
+
+   - Build for BL653
+
+     ```
+     Coming soon!
+     ```
+
+     
+
+   - Build for BL654
+
+     ```
+     cd ~/zephyrproject/zephyr
+     west build -p auto -b nrf52840_pca10056 samples/basic/blinky
+     ```
+
+     
+
+7. Flash the build
+
+   ```
+   west flash
+   ```
+
+   
+
+8. Verify LED1 is flashing on the dev kit
