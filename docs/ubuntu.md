@@ -67,8 +67,9 @@ To watch the video tutorial please go to Link TBD
 
      sudo cp ~/zephyr-sdk-0.11.3/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d
      
+
    sudo udevadm control --reload
-     
+
      
 
 5. Install nRF Command Line Tools Pkg
@@ -99,6 +100,8 @@ To watch the video tutorial please go to Link TBD
    west build -p auto -b <your-board-name> samples/basic/blinky
 
    To build BL652: west build -p auto -b nrf52_pca10040 samples/basic/blinky
+
+   To build BL653: TBD
 
    To build BL654: west build -p auto -b nrf52840_pca10056 samples/basic/blinky 
 
