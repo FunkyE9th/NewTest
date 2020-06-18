@@ -2,7 +2,7 @@
 
 To watch the video tutorial: Link to video coming soon.
 
-
+This tutorial is based on the [Zephyr Getting Started Guide](https://docs.zephyrproject.org/latest/getting_started/index.html). The only difference is we added an extra step (i.e. see step 5 below) to install the nRF Command Line Tools.
 
 1.  Update the OS
 
