@@ -60,6 +60,7 @@ To watch the video tutorial please go to Link TBD
    - [ ] Run the installer, installing the SDK in ~/zephyr-sdk-0.11.3
 
      chmod +x zephyr-sdk-0.11.3-setup.run
+
      ./zephyr-sdk-0.11.3-setup.run -- -d ~/zephyr-sdk-0.11.3
 
      
@@ -67,8 +68,9 @@ To watch the video tutorial please go to Link TBD
    - [ ] Install udev rules
 
      sudo cp ~/zephyr-sdk-0.11.3/sysroots/x86_64-pokysdk-linux/usr/share/openocd/contrib/60-openocd.rules /etc/udev/rules.d
-     sudo udevadm control --reload
-
+     
+   sudo udevadm control --reload
+     
      
 
 5. Install nRF Command Line Tools Pkg
@@ -79,14 +81,16 @@ To watch the video tutorial please go to Link TBD
 
      
 
-   - [ ] Extract into a directory of you choice
+   - [ ] Extract files into a directory of your choice
 
      
 
-   - [ ] Go to the directory and install
+   - [ ] cd into the directory and install
 
      sudo apt-get install libncurses5
+     
      sudo dpkg -i --force-overwrite JLink_Linux_V680b_x86_64.deb
+     
      sudo dpkg -i --force-overwrite nRF-Command-Line-Tools_10_9_0_Linux-amd64.deb
      
      
