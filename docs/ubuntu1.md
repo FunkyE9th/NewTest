@@ -36,9 +36,27 @@ Link to video coming soon.
 
    - Get Zephyr Source Code
 
+     ```
+     west init ~/zephyrproject
+     cd ~/zephyrproject
+     west update
+     ```
+
+     
+
    - Export Zephyr CMake package
 
+     ```
+     west zephyr-export
+     ```
+
+     
+
    - Zephyr’s scripts/requirements.txt file declares additional Python dependencies. Install them with pip3
+
+     ```
+     pip3 install --user -r ~/zephyrproject/zephyr/scripts/requirements.txt
+     ```
 
      
 
