@@ -17,7 +17,7 @@ To watch the video tutorial please go to Link TBD
 
      make gcc gcc-multilib g++-multilib libsdl2-dev
 
-   
+ 
 
 3. Get Zephyr and Install Python Dependencies
 
