@@ -1,4 +1,4 @@
-Link to video coming soon.
+To what the video tutorial: Link to video coming soon.
 
 
 
