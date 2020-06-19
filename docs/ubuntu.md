@@ -1,8 +1,8 @@
 # Getting Started with Zephyr on Ubuntu 20.04
 
-To watch the video tutorial: https://youtu.be/GaG0LkdsRbo
-
 This tutorial is based on the [Zephyr Getting Started Guide](https://docs.zephyrproject.org/latest/getting_started/index.html). The only difference is we added an extra step (i.e. see step 5 below) to install the nRF Command Line Tools.
+
+This tutorial will show you how to setup the Zephyr development environment, build the Blinky app and flash the app into the BL65x dev kit.
 
 1.  Update the OS
 
@@ -105,7 +105,7 @@ This tutorial is based on the [Zephyr Getting Started Guide](https://docs.zephyr
 
      ```
      sudo apt-get install libncurses5
-     sudo dpkg -i --force-overwrite JLink_Linux_V680b_x86_64.deb
+     sudo dpkg -i --force-overwrite JLink_Linux_V680a_x86_64.deb
      sudo dpkg -i --force-overwrite nRF-Command-Line-Tools_10_9_0_Linux-amd64.deb
      ```
 
