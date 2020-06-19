@@ -141,10 +141,14 @@ This tutorial will show you how to setup the Zephyr development environment, bui
 
 7. Flash the build
 
-   ```
-   west flash
-   ```
+   - Connect Ubuntu PC to USB2 port of the dev kit
 
-   
+   - Flash the build
+
+     ```
+     west flash
+     ```
+
+     
 
 8. Verify LED1 is flashing on the dev kit
