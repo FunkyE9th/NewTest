@@ -151,4 +151,4 @@ This tutorial will show you how to setup the Zephyr development environment, bui
 
      
 
-8. Verify LED1 is flashing on the dev kit
+8. Reboot dev kit and verify LED1 is flashing
